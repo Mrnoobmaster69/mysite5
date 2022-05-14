@@ -1,0 +1,16 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Форма по добавлению статьи{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Отзывы клиентов</h1>
+        <form method="post">
+            <textarea class="from-control" placeholder="Ваш отзыв"></textarea><br>
+            <input type="date" class="from-control"><br>
+            <input type="time" class="from-control"><br>
+            <button class="btn btn-success" type="submit">Оставить отзыв</button>
+        </form>
+
+    </div>
+{% endblock %}
